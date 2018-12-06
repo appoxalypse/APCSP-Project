@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+
+	/**
+	 * add background image here
+	 * make the header a bit transparent 
+	 */
+
+	height: 1000px;
+}
+
+/* header section */
+.header {
+	height: 8.3%;
+	box-sizing: inherit;
+
+	background-color: red;
+}
+	
+	.button {
+		width: 35%;
+		height: 50%;
+		margin-top: 5%;
+	}
+
+	.nav {
+		height: 100%;
+		width: 100%;
+
+		border-style: none;
+		border-radius: 5px;
+
+		color: blue;
+	}
+
+	#leftChunk {
+		width: 66.7%;
+		height: 100%;
+		float: left;
+	}
+
+		#leftLocation {
+			width: 50%;
+			height: 100%;
+			float: left;
+
+			background-color: orange;
+		}
+
+			#title {
+				margin-left: 5%;
+				float: left;
+			}
+
+		#logoLocation {
+			width: 50%;
+			height: 100%;
+
+			float: right;
+
+			background-color: purple;
+		}
+
+	#rightLocation {
+		width: 33.3%;
+		height: 100%;
+		float: right;
+
+		background-color: violet;
+	}
+
+		#genre {
+			margin-right: 5%;
+			float: right;
+		}

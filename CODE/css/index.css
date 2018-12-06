@@ -1,0 +1,14 @@
+/* body section */
+.main {
+	height: 83.4%;
+
+	box-sizing: inherit;
+	background-color: green;
+}
+
+.footer {
+	height: 8.3%;
+
+	box-sizing: inherit;
+	background-color: blue;
+}
