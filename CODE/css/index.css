@@ -1,13 +1,26 @@
 /* body section */
 .main {
-	height: 83.4%;
+	height: 94.4%;
 
 	box-sizing: inherit;
-	background-color: green;
 }
 
+	#overview {
+		box-sizing: inherit;
+		height: 60%;
+
+		background-color: red;
+	}
+
+	#websites {
+		box-sizing: inherit;
+		height: 40%;
+
+		background-color: pink;
+	}
+
 .footer {
-	height: 8.3%;
+	height: 2.3%;
 
 	box-sizing: inherit;
 	background-color: blue;

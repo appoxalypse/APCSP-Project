@@ -6,12 +6,12 @@ body {
 	 * make the header a bit transparent 
 	 */
 
-	height: 1000px;
+	height: 2000px;
 }
 
 /* header section */
 .header {
-	height: 8.3%;
+	height: 3.3%;
 	box-sizing: inherit;
 
 	background-color: red;
@@ -19,8 +19,8 @@ body {
 	
 	.button {
 		width: 35%;
-		height: 50%;
-		margin-top: 5%;
+		height: 60%;
+		margin-top: 3%;
 	}
 
 	.nav {

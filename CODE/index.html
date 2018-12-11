@@ -4,6 +4,30 @@
 		<title>Dramarama</title>
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 7000);
+			}
+		</script>
+
 	</head>
 	<body>
 
@@ -12,14 +36,14 @@
 			<div id="leftChunk">
 				<div id="leftLocation">
 					<div class="button" id="title">
-						<button class="nav" onclick="location.href='titleSearch.html'">Search by Title</button> <!-- JS section -->
+						<button class="nav" onclick="location.href='titleSearch.html'">Search by Title</button>
 					</div>
 				</div>
 				<div id="logoLocation"></div>
 			</div>
 			<div id="rightLocation">
 				<div class="button" id="genre">
-					<button class="nav" onclick="location.href='genreSearch.html'">Search by Genre</button> <!-- JS section -->
+					<button class="nav" onclick="location.href='genreSearch.html'">Search by Genre</button>
 				</div>
 			</div>
 		</div>
@@ -27,6 +51,31 @@
 		<!-- main body -->
 		<div class="main">
 			<div id="overview"></div>
+			<div id="websites">
+				
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+					 	<div class="numbertext">1 / 3</div>
+					 	<img src="http://zoo.sandiegozoo.org/sites/default/files/pandaT10-0597-044.jpg" style="width:100%">
+					 	<div class="text">Caption Text</div>
+					</div>
+
+					<div class="mySlides fade">
+					 	<div class="numbertext">2 / 3</div>
+					 	<img src="https://gdb.voanews.com/3ED6FCAB-D280-4197-8B02-BCCD9846076A_w1023_r1_s.jpg" style="width:100%">
+					 	<div class="text">Caption Two</div>
+					</div>
+
+					<div class="mySlides fade">
+					 	<div class="numbertext">3 / 3</div>
+					 	<img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/169F6/production/_91026629_gettyimages-519508400.jpg" style="width:100%">
+					 	<div class="text">Caption Three</div>
+					</div>
+
+				</div>
+
+			</div>
 		</div>
 
 		<!-- footer -->
