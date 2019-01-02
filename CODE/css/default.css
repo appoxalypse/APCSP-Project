@@ -49,25 +49,6 @@ table {
 
 
 
-.main {
-	height: 94.4%;
-
-	box-sizing: inherit;
-}
-
-	#overview {
-		box-sizing: inherit;
-		height: 58%;
-
-		background-color: red;
-	}
-
-	#websites {
-		box-sizing: inherit;
-		height: 42%;
-
-		background-color: pink;
-	}
 
 .footer {
 	height: 2.4%;

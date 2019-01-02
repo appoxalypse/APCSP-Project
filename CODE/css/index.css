@@ -1,5 +1,23 @@
 .subTitle {
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   font-size: 30px;
 }
+
+.main {
+	height: 94.4%;
+
+	box-sizing: inherit;
+}
+
+	#overview {
+		box-sizing: inherit;
+		height: 58%;
+
+		background-color: red;
+	}
+
+	#websites {
+		box-sizing: inherit;
+		height: 42%;
+	}
