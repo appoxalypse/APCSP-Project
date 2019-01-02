@@ -1,7 +1,15 @@
-.subTitle {
+p {
   text-align: center;
+}
+
+#streamSites {
   line-height: 40px;
   font-size: 30px;
+}
+
+#overviewContent {
+  line-height: normal;
+  font-size: 60px;
 }
 
 .main {
@@ -12,12 +20,12 @@
 
 	#overview {
 		box-sizing: inherit;
-		height: 58%;
+		height: 50%;
 
 		background-color: red;
 	}
 
 	#websites {
 		box-sizing: inherit;
-		height: 42%;
+		height: 50%;
 	}
