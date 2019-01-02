@@ -48,10 +48,14 @@ table {
 }
 
 
+.main {
+	height: 92%;
 
+	box-sizing: inherit;
+}
 
 .footer {
-	height: 2.4%;
+	height: 3%;
 
 	box-sizing: inherit;
 	background-color: blue;

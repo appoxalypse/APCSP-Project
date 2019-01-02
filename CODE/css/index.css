@@ -3,29 +3,34 @@ p {
 }
 
 #streamSites {
-  line-height: 40px;
-  font-size: 30px;
-}
-
-#overviewContent {
   line-height: normal;
-  font-size: 60px;
-}
-
-.main {
-	height: 94.4%;
-
-	box-sizing: inherit;
+  font-size: 30px;
 }
 
 	#overview {
 		box-sizing: inherit;
-		height: 50%;
+		height: 40%;
 
 		background-color: red;
 	}
 
+    #overviewTitle {
+      line-height: normal;
+      font-size: 100px;
+    }
+
+    #underTitle {
+      font-size: 35px;
+    }
+
+    #overviewContent {
+      font-size: 35px;
+      line-height: normal;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+
 	#websites {
 		box-sizing: inherit;
-		height: 50%;
+		height: 60%;
 	}
