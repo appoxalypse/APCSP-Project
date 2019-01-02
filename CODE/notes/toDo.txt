@@ -1,3 +1,0 @@
-make images for logo and find images for the header and the background
-	(replace colors)
-
