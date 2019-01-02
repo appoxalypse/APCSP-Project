@@ -14,7 +14,7 @@ body {
 	height: 3.3%;
 	box-sizing: inherit;
 
-	background-color: red;
+	background-color: blue;
 }
 	
 	.button {
@@ -29,8 +29,6 @@ body {
 
 		border-style: none;
 		border-radius: 5px;
-
-		color: blue;
 	}
 
 	#leftChunk {
@@ -43,8 +41,6 @@ body {
 			width: 50%;
 			height: 100%;
 			float: left;
-
-			background-color: orange;
 		}
 
 			#title {
@@ -57,16 +53,12 @@ body {
 			height: 100%;
 
 			float: right;
-
-			background-color: purple;
 		}
 
 	#rightLocation {
 		width: 33.3%;
 		height: 100%;
 		float: right;
-
-		background-color: violet;
 	}
 
 		#genre {
