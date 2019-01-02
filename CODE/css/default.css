@@ -57,14 +57,14 @@ table {
 
 	#overview {
 		box-sizing: inherit;
-		height: 60%;
+		height: 58%;
 
 		background-color: red;
 	}
 
 	#websites {
 		box-sizing: inherit;
-		height: 755.2px;
+		height: 42%;
 
 		background-color: pink;
 	}
