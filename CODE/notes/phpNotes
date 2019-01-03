@@ -14,3 +14,21 @@
 	while ($row = mysqli_fetch_assoc($result)) {
 		echo "The ID is: ".$row['id']." and the Username is: ".$row['username'];
 	}
+
+?>
+
+<?php
+
+mysql_connect('hostname', 'username', 'password');
+mysql_select_db('database-name');
+
+$sql = "SELECT PcID FROM PC";
+$result = mysql_query($sql);
+
+echo "<select name='PcID'>";
+while ($row = mysql_fetch_array($result)) {
+    echo "<option value='" . $row['PcID'] . "'>" . $row['PcID'] . "</option>";
+}
+echo "</select>";
+
+?>
