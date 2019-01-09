@@ -1,0 +1,17 @@
+Root User: appoxalypse
+Database Name: c9
+
+
+https://www.youtube.com/watch?v=mpQts3ezPVg
+
+
+INSERT INTO celebs (id, name, age) VALUES (1, 'Justin Beiber', 22);
+INSERT INTO celebs (id, name, age) VALUES (2, 'Beyonce Knowles', 33); 
+INSERT INTO celebs (id, name, age) VALUES (3, 'Jeremy Lin', 26); 
+INSERT INTO celebs (id, name, age) VALUES (4, 'Taylor Swift', 26);
+INSERT INTO celebs (id, name, age) VALUES (3, 'Samik Pradhan', 16);
+
+SELECT name, age FROM celebs WHERE id == 3;
+
+
+MAKE A ROW THAT GIVES THE web novels NUMBERS BASED ON THE FIRST LETTER
