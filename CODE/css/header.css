@@ -1,17 +1,6 @@
-body {
-	margin: 0;
-
-	/**
-	 * add background image here
-	 * make the header a bit transparent
-	 */
-
-	height: 1500px;
-}
-
 /* header section */
 .header {
-	height: 5%;
+	height: 75px;
 	box-sizing: inherit;
 
 	background-color: black;

@@ -34,3 +34,23 @@ p {
 		box-sizing: inherit;
 		height: 60%;
 	}
+
+
+  .main {
+  	height: 92%;
+
+  	box-sizing: inherit;
+  }
+
+  .footer {
+  	height: 3%;
+
+  	box-sizing: inherit;
+  	background-color: blue;
+  }
+
+  body {
+  	margin: 0;
+
+  	height: 1500px;
+  }

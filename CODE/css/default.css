@@ -46,17 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-.main {
-	height: 92%;
-
-	box-sizing: inherit;
-}
-
-.footer {
-	height: 3%;
-
-	box-sizing: inherit;
-	background-color: blue;
-}
