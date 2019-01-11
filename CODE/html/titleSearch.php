@@ -2,10 +2,37 @@
 <html>
 
   <head>
-    <title>PHP TEST</title>
+    <title>Title Search | Dramarama</title>
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/default.css">
   </head>
 
   <body>
+    
+    <!-- header -->
+		<div class="header">
+			<div id="leftChunk">
+				<div id="leftLocation">
+					<div class="button" id="rating">
+						<button class="nav" onclick="location.href='ratingSearch.html'">Search by Rating</button>
+					</div>
+				</div>
+				<div id="logoLocation">
+					<img src="../media/DRAMARAMA.jpg" width="100%" height="100%">
+				</div>
+			</div>
+			<div id="rightLocation">
+				<div class="button" id="title">
+					<button class="nav" onclick="location.href='../index.html'">Back to Home</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- main body -->
+		<form action="titleSearch.php">
+			First Letter of Title (uppercase): <input type="text" mame="alphabet"><br>
+			<input type="submit" name="submit">
+		</form>
 
     <?php
 
