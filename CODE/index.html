@@ -5,10 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/default.css">
 		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
-
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-
-
 	</head>
 	<body>
 
@@ -21,12 +18,14 @@
 					</div>
 				</div>
 				<div id="logoLocation">
-					<img src="media/DRAMARAMA.jpg" width="100%" height="100%">
+					<div class="button" id="all">
+						<button class="nav" onclick="location.href='html/fullList.php'">Full List</button>
+					</div>
 				</div>
 			</div>
 			<div id="rightLocation">
 				<div class="button" id="title">
-					<button class="nav" onclick="location.href='html/titleSearch.php'">Search by Title</button>
+					<button class="nav" onclick="location.href='html/titleSearch.html'">Search by Title</button>
 				</div>
 			</div>
 		</div>
@@ -64,8 +63,8 @@
 				  </a>
 				  </div>
 
-				  <a class="prev" onclick="plusSlides(-1)">❮</a>
-				  <a class="next" onclick="plusSlides(1)">❯</a>
+				  <a class="prev" onclick="plusSlides(-1)"><</a>
+				  <a class="next" onclick="plusSlides(1)">></a>
 
 				<script>
 				var slideIndex = 1;

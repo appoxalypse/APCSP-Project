@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Rating Search | Dramarama</title>
+		<title>Rating Search | WN Updates</title>
 		<link rel="stylesheet" type="text/css" href="../css/header.css">
 		<link rel="stylesheet" type="text/css" href="../css/default.css">
 	</head>
@@ -16,7 +16,9 @@
 					</div>
 				</div>
 				<div id="logoLocation">
-					<img src="../media/DRAMARAMA.jpg" width="100%" height="100%">
+					<div class="button" id="all">
+			    		<button class="nav" onclick="location.href='fullList.php'">Full List</button>
+				    </div>
 				</div>
 			</div>
 			<div id="rightLocation">
@@ -27,12 +29,10 @@
 		</div>
 
 		<!-- main body -->
-		<div class="main">
-			<div id="overview"></div>
-		</div>
-
-		<!-- footer -->
-		<div class="footer"></div>
+		<form action="ratingSearchPHP.php" method="post">
+			Rating: <input type="text" name="rating"><br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
 
 	</body>
 </html>
