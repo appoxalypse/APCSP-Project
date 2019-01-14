@@ -49,6 +49,8 @@ table {
 
 
 
-.formBody {
-	margin: 0 auto;
+span {
+	float: right;
+	margin-right: 44%;
+	margin-top: 5%
 }
