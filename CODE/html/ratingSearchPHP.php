@@ -48,7 +48,7 @@
         echo "<br><br>";
         
         //define query
-        $query = "SELECT title, author, genre, rating FROM web_novel WHERE rating='" . $_POST['rating'] . "';";
+        $query = "SELECT title, author, genre, rating FROM web_novel WHERE rating>=" . $_POST['rating'] . " AND rating<" . $_POST['rating'] . "+1;";
       
         $result = @mysqli_query($connection, $query);
         
